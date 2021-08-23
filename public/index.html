@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Snake Game!</h1>
+    <div id="points">Score:</div>
+    <div id="score"></div>
+    <h3 id="text_name">Name:</h3>
+    <input id="name" type="text"/>
+    <button id="play">PLAY</button>
+    <button id="exit">EXIT</button>
+    <div id="game">
+    <canvas id="snake" width="512" height="512"></canvas>
+    </div>
+    <div id="ranking_container">
+    <ol id="ranking"></ol>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  
+    <script defer src="script.js"></script>
+</body>
+</html>
